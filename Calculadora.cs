@@ -14,6 +14,10 @@ namespace Calculadora //POO
     {
         static void Main(string[] args)
         {
+             // Instanciando a classe Algoritmo
+            //Calculos.Algoritmo algoritmo = new Calculos.Algoritmo();
+            //assim o resultado fica (resultado = algoritmo.Subtracao(num_1, num_2);)
+
             Console.WriteLine("Qual operação deseja fazer? \n1-Adição\n2-Subtração\n3-Divisão\n4-Multiplicação");
             int operacao = int.Parse(Console.ReadLine());
 
